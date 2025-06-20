@@ -2,7 +2,8 @@
 layout: book-shelf
 title: Books
 permalink: /books/
-nav: false
+nav: true
+nav_order: 10
 collection: books
 ---
 
