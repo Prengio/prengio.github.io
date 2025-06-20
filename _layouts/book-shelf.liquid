@@ -1,22 +1,31 @@
 ---
 layout: page
+
 ---
+
 {{ content }}
+
 
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
-      {% assign current_year = item.date | date: '%Y' %}
-      {% if current_year != year %}
+
+
+    {% assign sorted_books = collection | sort: "subject" %}
+    {% assign previous_subject = "" %}
+
+    {% for item in sorted_books %}
+      {% assign current_subject = item.subject | strip | capitalize %}
+
+      {% if current_subject != previous_subject %}
         {% unless forloop.first %}
-          </ul>
+          </div>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
-          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
-        </h1>
-        <ul>
-          {% assign year = current_year %}
+        <h2 id="subject-{{ current_subject | slugify }}">
+          {{ item.subject }}
+        </h2>
+        <div class="book-grid">
+        {% assign previous_subject = current_subject %}
       {% endif %}
 
       <figure class="cover">
@@ -28,21 +37,19 @@ layout: page
           {% elsif item.isbn %}
             <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
           {% endif %}
+
           {% if item.status %}
             {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
             {% assign status = item.status | downcase | strip %}
             {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+              <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
             {% endif %}
-          {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
           {% endif %}
         </a>
       </figure>
+
       {% if forloop.last %}
-        </ul>
+        </div>
       {% endif %}
     {% endfor %}
   {% endif %}
