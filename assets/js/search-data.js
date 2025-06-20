@@ -408,6 +408,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/engel/";
+            },},{id: "books-problems-from-the-book",
+          title: 'Problems from the Book',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/pftb/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
