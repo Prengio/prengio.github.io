@@ -35,4 +35,4 @@ social: true # includes social icons at the bottom of the page
 
 Just a collection of notable projects I've done and a handful of other things.
 
-<img src="assets\img\great_wave.jpg" alt="drawing" width="1000"/>
+<img src="assets/img/great_wave.jpg" alt="My Image" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 0 auto;" />
