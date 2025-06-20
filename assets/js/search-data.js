@@ -435,11 +435,21 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-organic-chemistry-aka-clayden",
+          title: 'Organic Chemistry aka (Clayden)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/Clayden/";
+            },},{id: "books-introduction-to-quantum-mechanics",
+          title: 'Introduction to Quantum Mechanics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/QM/";
+            },},{id: "books-problem-solving-strategies",
+          title: 'Problem-Solving Strategies',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/engel/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
