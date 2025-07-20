@@ -27,6 +27,9 @@ social: true # includes social icons at the bottom of the page
  # enabled: true
  # scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
  # limit: 3 # leave blank to include all the blog posts
+
+#<img src="assets/img/topology_of_universe.jpg" alt="My Image" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 0 auto;" />
+
 ---
 
 
@@ -35,4 +38,4 @@ social: true # includes social icons at the bottom of the page
 
 Just a collection of notable projects I've done and a handful of other things.
 
-<img src="assets/img/great_wave.jpg" alt="My Image" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 0 auto;" />
+<video src="assets\img\TopologyoftheUniverse_crDVDP-HP.V2.mp4" autoplay="autoplay" muted="true" loop="true" playsinline="true" width="100%" ></video>
