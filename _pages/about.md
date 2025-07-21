@@ -39,3 +39,5 @@ social: true # includes social icons at the bottom of the page
 Just a collection of notable projects I've done and a handful of other things.
 
 <video src="assets\img\TopologyoftheUniverse_crDVDP-HP.V2.mp4" autoplay="autoplay" muted="true" loop="true" playsinline="true" width="100%" ></video>
+
+I'm currently looking into Non-Euclidean Geometry with the aim to expand to cosmic topology and also Olympiad Level Inequalities
