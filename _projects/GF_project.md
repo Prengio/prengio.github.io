@@ -5,6 +5,7 @@ description: The bane of a conversation with me
 img: assets/img/7.jpg
 importance: 3
 category: Normal
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
