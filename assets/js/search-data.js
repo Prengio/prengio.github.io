@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-",
+        },{id: "post-cosmic-topology",
         
-          title: "",
+          title: "Cosmic Topology",
         
-        description: "",
+        description: "an example of a blog post with some math",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2015-10-20-math/";
+            window.location.href = "/blog/2025/math/";
           
         },
       },{id: "books-organic-chemistry-aka-clayden",
