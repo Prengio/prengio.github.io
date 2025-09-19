@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-admissions",
+          title: "Admissions",
+          description: "A growing collection of random projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/admissions/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "A growing collection of random projects.",
@@ -48,7 +55,12 @@ ninja.data = [{
             window.location.href = "/blog/2025/math/";
           
         },
-      },{id: "books-organic-chemistry-aka-clayden",
+      },{id: "admissions-tmua",
+          title: 'TMUA',
+          description: "",
+          section: "Admissions",handler: () => {
+              window.location.href = "/admissions/TMUA/";
+            },},{id: "books-organic-chemistry-aka-clayden",
           title: 'Organic Chemistry aka (Clayden)',
           description: "",
           section: "Books",handler: () => {
