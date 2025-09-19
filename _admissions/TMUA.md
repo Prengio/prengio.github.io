@@ -2,7 +2,7 @@
 layout: page
 title: TMUA
 
-img: assets/img/projects/QM_projects.png
+img: assets/img/TMUA_doom.png
 importance: 1
 usemathjax: true
 giscus_comments: true
