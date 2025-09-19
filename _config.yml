@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: some of my notable research
+blog_description: some of my more interesing research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -95,7 +95,7 @@ lsi: false # produce an index for related posts
 pagination:
   enabled: true
 
-related_blog_posts:
+related_blog_posts:b
   enabled: true
   max_related: 5
 
