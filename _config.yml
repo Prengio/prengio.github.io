@@ -95,7 +95,7 @@ lsi: false # produce an index for related posts
 pagination:
   enabled: true
 
-related_blog_posts:b
+related_blog_posts:
   enabled: true
   max_related: 5
 
@@ -152,6 +152,9 @@ collections:
     output: true
   projects:
     output: true
+  admissions:
+    output: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
