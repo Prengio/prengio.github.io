@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Admissions
-permalink: /admissions/
-description: A growing collection of random projects.
+title: A-Level
+permalink: /alevel/
+description: A collection of courses and things for A-level students
 nav: true
 nav_order: 3
 horizontal: false
 ---
 
-<!-- pages/admissions.md -->
+<!-- pages/alevel.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -16,7 +16,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.admissions | where: "category", category %}
+  {% assign categorized_projects = site.alevel | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
@@ -40,7 +40,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.admissions | sort: "importance" %}
+{% assign sorted_projects = site.alevel | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 

@@ -152,7 +152,7 @@ collections:
     output: true
   projects:
     output: true
-  admissions:
+  alevel:
     output: true
 
 
@@ -655,3 +655,8 @@ jsonresume:
   - languages
   - interests
   - references
+
+
+toc:
+  sidebar: left
+

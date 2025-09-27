@@ -1,9 +1,10 @@
 ---
 layout: page
 title: TMUA
+importance: 0
 
-img: assets/img/TMUA_doom.png
-importance: 1
+img: assets/img/TMUA_doom_cover.png
+
 usemathjax: true
 giscus_comments: true
 
@@ -19,3 +20,16 @@ Here is a collection of TMUA mock papers I have written. They are all likely to 
         width="100%" height="600" frameborder="0"
         style="background: #1e1e1e; filter: invert(0.89) hue-rotate(140deg);"></iframe>
 
+<script>
+  const iframe = document.getElementById('drive-iframe');
+  
+  const observer = new MutationObserver(() => {
+    if (document.body.classList.contains('dark-mode')) {
+      iframe.style.filter = 'invert(1) hue-rotate(180deg) brightness(0.9)';
+    } else {
+      iframe.style.filter = '';
+    }
+  });
+
+  observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+</script>
