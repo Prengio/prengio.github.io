@@ -21,7 +21,7 @@ Their main competition, the BPhO itself, is aimed at students in Years 12–13. 
 
 They also run the British Astronomy and Astrophysics Olympiad (BAAO). This has two rounds, leading to a final camp of 14 from which the UK team for the International Olympiad on Astronomy and Astrophysics is chosen. Any student achieving a Top Gold in BPhO Round 1 is automatically invited to sit BAAO Round 2. The [syllabus](https://www.bpho.org.uk/baao/BAAO_Syllabus_Oct23.pdf) is available online.
 
-Finally, the BPhO offers a 10-week computational challenge, supported by a lecture series, which introduces students to problem solving through programming and simulation.
+Finally, the BPhO offers a 10-week computational challenge, supported by a lecture series, which introduces students to problem solving through programming and simulation. They also do some Year-12 only exams during the year. 
 
 
 
@@ -30,3 +30,6 @@ Finally, the BPhO offers a 10-week computational challenge, supported by a lectu
 The Oxford Quantum Club is an online course in quantum physics for students in Years 12 and 13. It runs throughout the academic year, with weekly tutorials and set work delivered online.
 
 Applicants are expected to be studying A-level Physics, to have strong mathematical skills, and to complete an entrance test on complex numbers as part of the application process. The deadline for applications is 12 October.
+
+
+# [Senior Physics Challenge](https://isaacscience.org/pages/spc#:~:text=The%20Senior%20Physics%20Challenge%20summer,been%20incorporated%20into%20Isaac%20Science.)
