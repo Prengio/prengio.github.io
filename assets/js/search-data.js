@@ -55,7 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/math/";
           
         },
-      },{id: "alevel-physics",
+      },{id: "alevel-chemistry",
+          title: 'Chemistry',
+          description: "",
+          section: "Alevel",handler: () => {
+              window.location.href = "/alevel/Chemistry/";
+            },},{id: "alevel-maths",
+          title: 'Maths',
+          description: "",
+          section: "Alevel",handler: () => {
+              window.location.href = "/alevel/Maths/";
+            },},{id: "alevel-physics",
           title: 'Physics',
           description: "",
           section: "Alevel",handler: () => {
