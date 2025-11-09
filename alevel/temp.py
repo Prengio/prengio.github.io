@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
 # Parameters for a tighter zoom directly on the seahorse tail region
+
+
 xmin, xmax = -0.746, -0.742
-ymin, ymax = 0.129, 0.1325
-width, height = 1200, 1200
-max_iter = 10000
+ymin, ymax = 0.128, 0.1325
+width, height = 2400, 3000
+max_iter = 1000
 
 # Create grid of complex numbers
 x = np.linspace(xmin, xmax, width)

@@ -9,53 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-a-level",
+  },{id: "nav-a-level",
           title: "A-Level",
-          description: "A collection of courses and things for A-level students",
+          description: "A collection of things for A-level students",
           section: "Navigation",
           handler: () => {
             window.location.href = "/alevel/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "A growing collection of random projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "A Collecition of my repos",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-books",
-          title: "Books",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
-          },
-        },{id: "post-cosmic-topology",
-        
-          title: "Cosmic Topology",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/math/";
-          
-        },
-      },{id: "alevel-chemistry",
+        },{id: "alevel-chemistry",
           title: 'Chemistry',
           description: "",
           section: "Alevel",handler: () => {
@@ -75,41 +36,11 @@ ninja.data = [{
           description: "",
           section: "Alevel",handler: () => {
               window.location.href = "/alevel/TMUA/";
-            },},{id: "books-organic-chemistry-aka-clayden",
-          title: 'Organic Chemistry aka (Clayden)',
+            },},{id: "alevel-maths-interview",
+          title: 'Maths Interview',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/Clayden/";
-            },},{id: "books-introduction-to-quantum-mechanics",
-          title: 'Introduction to Quantum Mechanics',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/QM/";
-            },},{id: "books-problem-solving-strategies",
-          title: 'Problem-Solving Strategies',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/engel/";
-            },},{id: "books-problems-from-the-book",
-          title: 'Problems from the Book',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/pftb/";
-            },},{id: "projects-cubic-splining-with-generating-functions",
-          title: 'Cubic splining with Generating Functions',
-          description: "The bane of a conversation with me",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/GF_project/";
-            },},{id: "projects-machine-learning",
-          title: 'Machine Learning',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ML_project/";
-            },},{id: "projects-quantum-mechanics",
-          title: 'Quantum Mechanics',
-          description: "Looking into using computation physics to model some chemistry stuff",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/QM_project/";
+          section: "Alevel",handler: () => {
+              window.location.href = "/alevel/maths_interview/";
             },},{
         id: 'social-email',
         title: 'email',
