@@ -2,7 +2,7 @@
 layout: page
 title: A-Level
 permalink: /alevel/
-description: A collection of courses and things for A-level students
+description: A collection of things for A-level students
 nav: true
 nav_order: 3
 horizontal: false

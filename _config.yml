@@ -204,7 +204,14 @@ exclude:
   - _pages/news.md
   - _posts/temp/
   - _projects/temp/
-  - 
+
+  - _pages/repositories.md
+  - _projects/
+  - _pages/projects.md
+  - _posts/
+  - _pages/blog.md
+  - _books/
+  - _pages/books.md
 keep_files:
   - CNAME
   - .nojekyll
