@@ -1,20 +1,15 @@
 ---
 layout: page
 title: TMUA
-importance: 0
-
 img: assets/img/TMUA_doom_cover.png
-
+importance: 0
 usemathjax: true
 giscus_comments: true
-
 ---
 
 ![Alt text](/assets/img/TMUA_doom.png){: style="width:100%; height:auto;" }
 
-
 Here is a collection of TMUA mock papers I have written. They are all likely to be harder that actual TMUA. The max difficulty of questions probably isn't that different, just that there are more hard questions.
-
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1VTjcPqM0yMoEDJ8kMVtG55xB1Hjn3mOV"
         width="100%" height="600" frameborder="0"
@@ -33,3 +28,5 @@ Here is a collection of TMUA mock papers I have written. They are all likely to 
 
   observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
 </script>
+
+
