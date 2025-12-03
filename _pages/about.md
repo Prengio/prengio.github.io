@@ -40,5 +40,4 @@ Just a collection of notable projects I've done and a handful of resources
 
 <video src="assets\img\TopologyoftheUniverse_crDVDP-HP.V2.mp4" autoplay="autoplay" muted="true" loop="true" playsinline="true" width="100%" ></video>
 
-<iframe src="http://numairahmed.co.uk:3000/d-solo/nun69q9/pain?orgId=1&from=1764090499390&to=1764695299390&timezone=browser&panelId=panel-1&__feature.dashboardSceneSolo=true" width="100%" height="400" frameborder="0" ></iframe>
-
+<iframe width="890" height="464" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT7wA1-83u3OSTFV2-yaVDxvvpvNegnUOFbEjiCTaEJffEItI9s5-ft0HBrL0MN-LdvvbTUtNjppeal/pubchart?oid=510641820&amp;format=interactive"></iframe>
